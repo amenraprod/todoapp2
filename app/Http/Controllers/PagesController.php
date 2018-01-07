@@ -9,7 +9,7 @@ class PagesController extends Controller
     public function new (){
 
 
-      return ('view');
+      echo "some echoed data";
     }
 
 }

@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/new', function() {
-  return view ('new');
-});
+
+
+Route::get('/new', [
+
+  
+  'uses'=> 'PagesController@new'
+]);

@@ -11,6 +11,6 @@ class ToDostableseeder extends Seeder
      */
     public function run()
     {
-        factory('App\ToDo', 7)->create();
+        factory(App\ToDo::class, 7)->create();
     }
 }
